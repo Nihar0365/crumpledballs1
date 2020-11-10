@@ -28,7 +28,7 @@ function draw() {
     background("black");
     textSize(20);
     fill("red");
-    text("PRESS UP ARROW TO START AND PRESS IT AGAIN TO THROW THE TRASH", 2, 200)
+    text("PRESS UP ARROW TO START", 150, 200)
     if (keyCode === UP_ARROW) {
       gameState = "play"
     }
